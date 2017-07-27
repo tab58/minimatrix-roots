@@ -1,0 +1,26 @@
+{
+  "name": "minimatrix-roots",
+  "version": "1.0.0",
+  "description": "Root finding methods for use with minimatrix.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tab58/minimatrix-roots.git"
+  },
+  "keywords": [
+    "root-finding"
+  ],
+  "author": "Tim Bright",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tab58/minimatrix-roots/issues"
+  },
+  "homepage": "https://github.com/tab58/minimatrix-roots#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
