@@ -1,10 +1,10 @@
 {
   "name": "minimatrix-roots",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Root finding methods for use with minimatrix.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/test.js"
+    "test": "./node_modules/.bin/mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "devDependencies": {
     "chai": "^4.1.0",
     "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "minimatrix": "^1.1.0",
+    "minimatrix-decomp": "^1.0.0"
   }
 }
